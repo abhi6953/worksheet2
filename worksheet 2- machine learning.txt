@@ -1,0 +1,33 @@
+WORKSHEET-2 MACHINE LEARNING
+1. option a
+2. option d
+3. option a
+4. option a
+5. option b
+6. option b
+7. option a
+8. option d
+9. option a
+10. option a
+11. option d
+12. option d
+
+13. Is K sensitive to outliers?
+
+The K-means clustering algorithm is sensitive to outliers, because a mean is easily influenced by extreme values. K-medoids clustering is a variant of K-means that is more robust to noises and outliers. 
+Instead of using the mean point as the center of a cluster, K-medoids uses an actual point in the cluster to represent it.
+
+14. Why is K means better?
+
+K-means is the simplest. To implement and to run. All you need to do is choose "k" and run it a number of times.
+Most more clever algorithms (in particular the good ones) are much harder to implement efficiently (you'll see factors of 100x in runtime differences) and have much more parameters to set.
+Plus, most people don't need quality clusters. They actually are happy with anything remotely working for them. 
+Plus, they don't really know what to do when they had more complex clusters. K-means, which models clusters using the simplest model ever - a centroid - is exactly what they need
+massive data reduction to centroids.
+
+15. Is K means a deterministic algorithm?
+
+No, The basic k-means clustering is based on a non-deterministic algorithm. This means that running the algorithm several times on the same data, 
+could give different results.
+
+
